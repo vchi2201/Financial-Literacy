@@ -41,32 +41,24 @@ a {
   border-width:2px;
   border-radius:10%;
 }
-
-.first-box {
+div {
   text-align:center;
-  margin-top:20px;
-  margin-bottom:20px;
-  background-color:black;
-  width:250px;
-  height:270px;
+  width:260px;
+  overflow: auto;
   border-color:white;
   border-style: solid;
   border-width:5px;
   border-radius:10%;
+  background-color:black;
+}
+.first-box {
+  margin-top:20px;
+  margin-bottom:20px;
 }
 
 .second-box {
-  text-align:center;
-  margin-top:20px;
-  margin-bottom:20px;
-  margin-right:250px;
-  margin-left:250px;
-  background-color:black;
-  width:250px;
-  height:270px;
-  border-color:white;
-  border-style: solid;
-  border-width:5px;
-  border-radius:10%;
-  
+  margin-top:-300px;
+  margin-bottom:-300px;
+  margin-right:280px;
+  margin-left:280px;
 }
